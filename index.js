@@ -75,7 +75,7 @@ if (numberOfMonth >= 1 && numberOfMonth <= 12) {
 
 const numberInRange = parseInt(prompt("Task 7 - enter any number:"));
 
-if (numberInRange > 20 && numberInRange < 80) {
+if (numberInRange >= 20 && numberInRange <= 80) {
   console.log("Task 7: A number in range!");
 } else {
   console.log("Task 7: Smth goes wrong!");
